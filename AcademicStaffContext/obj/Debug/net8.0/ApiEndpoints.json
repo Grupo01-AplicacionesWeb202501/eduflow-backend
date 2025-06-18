@@ -1,0 +1,176 @@
+[
+  {
+    "ContainingType": "AcademicStaffContext.AcademicStaff.Interfaces.REST.Resources.DepartmentResource",
+    "Method": "Create",
+    "RelativePath": "api/v1/departments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "AcademicStaffContext.AcademicStaff.Domain.Model.Commands.CreateDepartmentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademicStaffContext.AcademicStaff.Interfaces.REST.Resources.DepartmentResource",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/departments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademicStaffContext.AcademicStaff.Interfaces.REST.Resources.DepartmentResource",
+    "Method": "Update",
+    "RelativePath": "api/v1/departments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "AcademicStaffContext.AcademicStaff.Domain.Model.Commands.UpdateDepartmentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademicStaffContext.AcademicStaff.Interfaces.REST.Resources.DepartmentResource",
+    "Method": "Delete",
+    "RelativePath": "api/v1/departments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademicStaffContext.AcademicStaff.Interfaces.REST.Resources.DepartmentResource",
+    "Method": "GetById",
+    "RelativePath": "api/v1/departments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademicStaff.Interfaces.REST.Resources.TeacherResource",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/teachers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademicStaff.Interfaces.REST.Resources.TeacherResource",
+    "Method": "Create",
+    "RelativePath": "api/v1/teachers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "AcademicStaff.Domain.Model.Commands.CreateTeacherCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademicStaff.Interfaces.REST.Resources.TeacherResource",
+    "Method": "GetById",
+    "RelativePath": "api/v1/teachers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademicStaff.Interfaces.REST.Resources.TeacherResource",
+    "Method": "Update",
+    "RelativePath": "api/v1/teachers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "AcademicStaff.Domain.Model.Commands.UpdateTeacherCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademicStaff.Interfaces.REST.Resources.TeacherResource",
+    "Method": "Delete",
+    "RelativePath": "api/v1/teachers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademicStaff.Interfaces.REST.Resources.TeacherResource",
+    "Method": "GetByName",
+    "RelativePath": "api/v1/teachers/by-name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
