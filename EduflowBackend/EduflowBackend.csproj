@@ -19,7 +19,37 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Iam\" />
+      <Folder Include="Iam\Application\Internal\CommandServices\" />
+      <Folder Include="Iam\Application\Internal\OutboundServices\" />
+      <Folder Include="Iam\Application\Internal\QueryServices\" />
+      <Folder Include="Iam\Domain\Model\Aggregates\" />
+      <Folder Include="Iam\Domain\Model\Commands\" />
+      <Folder Include="Iam\Domain\Model\Queries\" />
+      <Folder Include="Iam\Domain\Repositories\" />
+      <Folder Include="Iam\Domain\Services\" />
+      <Folder Include="Iam\Infrastructure\Hashing\BCrypt\Services\" />
+      <Folder Include="Iam\Infrastructure\Persistence\EFC\Repositories\" />
+      <Folder Include="Iam\Infrastructure\Pipeline\Middleware\Attributes\" />
+      <Folder Include="Iam\Infrastructure\Pipeline\Middleware\Components\" />
+      <Folder Include="Iam\Infrastructure\Pipeline\Middleware\Extensions\" />
+      <Folder Include="Iam\Infrastructure\Tokens\JWT\Configuration\" />
+      <Folder Include="Iam\Infrastructure\Tokens\JWT\Services\" />
+      <Folder Include="Iam\Interfaces\ACL\Services\" />
+      <Folder Include="Iam\Interfaces\REST\Resources\" />
+      <Folder Include="Iam\Interfaces\REST\Transform\" />
+      <Folder Include="Profiles\Application\ACL\" />
+      <Folder Include="Profiles\Application\Internal\CommandServices\" />
+      <Folder Include="Profiles\Application\Internal\QueryServices\" />
+      <Folder Include="Profiles\Domain\Model\Aggregates\" />
+      <Folder Include="Profiles\Domain\Model\Commands\" />
+      <Folder Include="Profiles\Domain\Model\Queries\" />
+      <Folder Include="Profiles\Domain\Model\ValueObjects\" />
+      <Folder Include="Profiles\Domain\Repositories\" />
+      <Folder Include="Profiles\Domain\Services\" />
+      <Folder Include="Profiles\Infrastructure\Persistence\EFC\Repositories\" />
+      <Folder Include="Profiles\Interfaces\ACL\" />
+      <Folder Include="Profiles\Interfaces\REST\Resources\" />
+      <Folder Include="Profiles\Interfaces\REST\Transform\" />
     </ItemGroup>
 
 </Project>
