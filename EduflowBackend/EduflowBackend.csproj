@@ -41,9 +41,6 @@
       <Folder Include="Profiles\Application\Internal\CommandServices\" />
       <Folder Include="Profiles\Application\Internal\QueryServices\" />
       <Folder Include="Profiles\Domain\Model\Aggregates\" />
-      <Folder Include="Profiles\Domain\Model\Commands\" />
-      <Folder Include="Profiles\Domain\Model\Queries\" />
-      <Folder Include="Profiles\Domain\Model\ValueObjects\" />
       <Folder Include="Profiles\Domain\Repositories\" />
       <Folder Include="Profiles\Domain\Services\" />
       <Folder Include="Profiles\Infrastructure\Persistence\EFC\Repositories\" />
