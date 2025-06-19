@@ -1,3 +1,5 @@
-﻿namespace EduflowBackend.Profiles.Domain.Model.Queries;
+﻿using EduflowBackend.Profiles.Domain.Model.ValueObjects;
 
-public record GetProfileByEmailQuery(string Email);
+namespace EduflowBackend.Profiles.Domain.Model.Queries;
+
+public record GetProfileByEmailQuery(Email Email);

@@ -1,6 +1,6 @@
 ﻿using EduflowBackend.Profiles.Domain.Model.Commands;
 using EduflowBackend.Profiles.Domain.Model.Queries;
-//using EduflowBackend.Profiles.Domain.Model.ValueObjects;
+using EduflowBackend.Profiles.Domain.Model.ValueObjects;
 using EduflowBackend.Profiles.Domain.Services;
 using EduflowBackend.Profiles.Interfaces.ACL;
 
@@ -41,7 +41,7 @@ public class ProfilesContextFacade(
     /// <inheritdoc />
     public async Task<int> FetchProfileIdByEmailAsync(string email)
     {
-        var query = new GetProfileByEmailQuery(email);
+        var query = new GetProfileByEmailQuery(new Email(email));
         var profile = await profileQueryService.Handle(query);
         return profile?.Id ?? 0;
     }

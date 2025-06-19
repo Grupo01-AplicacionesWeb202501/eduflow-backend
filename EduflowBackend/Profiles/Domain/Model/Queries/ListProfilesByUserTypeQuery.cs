@@ -1,3 +1,5 @@
-﻿namespace EduflowBackend.Profiles.Domain.Model.Queries;
+﻿using EduflowBackend.Profiles.Domain.Model.ValueObjects;
 
-public record ListProfilesByUserTypeQuery(string UserType);
+namespace EduflowBackend.Profiles.Domain.Model.Queries;
+
+public record ListProfilesByUserTypeQuery(UserType UserType);
