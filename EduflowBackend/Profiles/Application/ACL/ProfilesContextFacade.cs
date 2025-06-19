@@ -1,6 +1,6 @@
 ﻿using EduflowBackend.Profiles.Domain.Model.Commands;
 using EduflowBackend.Profiles.Domain.Model.Queries;
-using EduflowBackend.Profiles.Domain.Model.ValueObjects;
+//using EduflowBackend.Profiles.Domain.Model.ValueObjects;
 using EduflowBackend.Profiles.Domain.Services;
 using EduflowBackend.Profiles.Interfaces.ACL;
 
