@@ -37,7 +37,6 @@
       <Folder Include="Iam\Interfaces\ACL\Services\" />
       <Folder Include="Iam\Interfaces\REST\Resources\" />
       <Folder Include="Iam\Interfaces\REST\Transform\" />
-      <Folder Include="Profiles\Application\ACL\" />
       <Folder Include="Profiles\Application\Internal\CommandServices\" />
       <Folder Include="Profiles\Application\Internal\QueryServices\" />
       <Folder Include="Profiles\Interfaces\REST\Resources\" />
