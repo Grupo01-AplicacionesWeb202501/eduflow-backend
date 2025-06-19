@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EduflowBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bd3f30df4ddbb0866afb5ccdb9ecfc369abd0d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1945ef3a0ddb9f5cc157685142106591cd644607")]
 [assembly: System.Reflection.AssemblyProductAttribute("EduflowBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EduflowBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
