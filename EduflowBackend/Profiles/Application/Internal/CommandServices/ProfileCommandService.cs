@@ -28,7 +28,7 @@ public class ProfileCommandService(
         }
         catch (Exception e)
         {
-            // Log error (optional: inject a logger)
+            Console.WriteLine($"[CreateProfileCommand] Error: {e.Message}");
             return null;
         }
     }
