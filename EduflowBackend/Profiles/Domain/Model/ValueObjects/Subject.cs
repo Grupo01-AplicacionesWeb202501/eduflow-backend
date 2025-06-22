@@ -3,7 +3,7 @@ namespace EduflowBackend.Profiles.Domain.Model.ValueObjects;
 
 public class Subject
 {
-    public string Value { get; private set; } 
+    public string Value { get; private set; } = null!;
 
     public Subject(string value)
     {
@@ -13,6 +13,5 @@ public class Subject
 
     public Subject()
     {
-        Value = string.Empty;
     } // For EF
 }

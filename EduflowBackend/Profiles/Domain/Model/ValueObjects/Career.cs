@@ -2,7 +2,7 @@
 
 public class Career
 {
-    public string Value { get; private set; }  
+    public string Value { get; private set; } = null!; 
 
     public Career(string value)
     {
@@ -12,6 +12,5 @@ public class Career
 
     public Career()
     {
-        Value = string.Empty;
-    } // For EF
+    } 
 }

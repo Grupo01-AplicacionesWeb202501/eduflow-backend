@@ -2,7 +2,7 @@
 
 public class Cycle
 {
-    public int Value { get; private set; } 
+    public int Value { get; private set; } = 0;
 
     public Cycle(int value)
     {
@@ -12,6 +12,5 @@ public class Cycle
 
     public Cycle()
     {
-        Value = 1; // Default value for EF
     } // For EF
 }

@@ -16,17 +16,17 @@ public class StudentProfileCommandService(
 {
     public async Task<ProfileStudent?> Handle(CreateStudentProfileCommand command)
     {
-        var profile = new ProfileStudent(command);
         try
         {
+            var profile = new ProfileStudent(command);
             await studentProfileRepository.AddAsync(profile);
             await unitOfWork.CompleteAsync();
             return profile;
         }
-        catch (Exception)
+        catch (Exception ex)
         {
-            // You could log the exception here
-            return null;
+            Console.WriteLine($"[ERROR] No se pudo crear el perfil: {ex.Message}");
+            throw;
         }
     }
 }
