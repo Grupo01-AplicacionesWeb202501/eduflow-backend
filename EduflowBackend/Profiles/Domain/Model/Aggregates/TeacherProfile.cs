@@ -12,12 +12,12 @@ public partial class TeacherProfile
     public Subject Subject { get; private set; }
 
     // Constructor requerido por EF
-   /* protected TeacherProfile()
+   protected TeacherProfile()
     {
         FullName = new FullName();
         Email = new Email();
         Subject = new Subject();
-    }*/
+    }
 
     public TeacherProfile(CreateTeacherProfileCommand command)
     {

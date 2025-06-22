@@ -1,4 +1,5 @@
-﻿namespace EduflowBackend.Profiles.Domain.Model.ValueObjects;
+﻿
+namespace EduflowBackend.Profiles.Domain.Model.ValueObjects;
 
 public class Subject
 {
@@ -10,7 +11,7 @@ public class Subject
         Value = value.Trim();
     }
 
-    protected Subject()
+    public Subject()
     {
         Value = string.Empty;
     } // For EF

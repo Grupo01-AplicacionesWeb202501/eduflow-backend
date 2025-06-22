@@ -10,7 +10,7 @@ public class Career
         Value = value.Trim();
     }
 
-    protected Career()
+    public Career()
     {
         Value = string.Empty;
     } // For EF

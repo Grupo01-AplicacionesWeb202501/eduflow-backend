@@ -8,7 +8,7 @@ public class Email
 
     public string Value { get; private set; }
 
-    protected Email()
+    public Email()
     {
         Value = string.Empty;
     } // For EF

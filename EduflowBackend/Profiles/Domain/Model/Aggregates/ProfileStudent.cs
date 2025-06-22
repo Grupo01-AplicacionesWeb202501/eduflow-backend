@@ -13,13 +13,13 @@ public partial class ProfileStudent
     public Cycle Cycle { get; private set; }
 
     // Constructor requerido por EF
-    /*protected ProfileStudent()
+    protected ProfileStudent()
     {
         FullName = new FullName(); // usa el constructor protegido sin parámetros
         Email = new Email();
         Career = new Career();
         Cycle = new Cycle();
-    }*/
+    }
 
     public ProfileStudent(CreateStudentProfileCommand command)
     {

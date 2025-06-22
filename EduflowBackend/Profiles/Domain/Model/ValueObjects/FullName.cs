@@ -6,10 +6,9 @@ public class FullName
     public string LastName { get; private set;  } = null!;
 
     public string Value => $"{FirstName} {LastName}".Trim();
-    
-    protected FullName()
-    {
-    } 
+
+    public FullName() { }
+
     public FullName(string firstName, string lastName)
     {
         if (string.IsNullOrWhiteSpace(firstName))
