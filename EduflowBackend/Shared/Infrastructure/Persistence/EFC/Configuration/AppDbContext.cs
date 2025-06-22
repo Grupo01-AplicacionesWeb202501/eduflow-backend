@@ -1,3 +1,4 @@
+using EduflowBackend.Profiles.Domain.Model.Aggregates;
 using EduflowBackend.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
 using EntityFrameworkCore.CreatedUpdatedDate.Extensions;
 using Microsoft.EntityFrameworkCore;
@@ -9,10 +10,13 @@ namespace EduflowBackend.Shared.Infrastructure.Persistence.EFC.Configuration;
 /// </summary>
 public class AppDbContext(DbContextOptions options) : DbContext(options)
 {
+    // 👇 REGISTRO DE AGREGADOS
+    public DbSet<ProfileStudent> ProfileStudents { get; set; } = null!;
+    public DbSet<TeacherProfile> TeacherProfiles { get; set; } = null!;
+
     protected override void OnConfiguring(DbContextOptionsBuilder builder)
     {
-        // Add the created and updated interceptor
-        builder.AddCreatedUpdatedInterceptor();
+        builder.AddCreatedUpdatedInterceptor(); // Interceptor opcional para timestamps
         base.OnConfiguring(builder);
     }
 
@@ -20,11 +24,7 @@ public class AppDbContext(DbContextOptions options) : DbContext(options)
     {
         base.OnModelCreating(builder);
 
-        /*builder.Entity<FavoriteSource>().HasKey(f => f.Id);
-        builder.Entity<FavoriteSource>().Property(f => f.Id).IsRequired().ValueGeneratedOnAdd();
-        builder.Entity<FavoriteSource>().Property(f => f.SourceId).IsRequired();
-        builder.Entity<FavoriteSource>().Property(f => f.NewsApiKey).IsRequired();*/
-
+        // 🐍 Convención opcional del profesor (snake_case)
         builder.UseSnakeCaseNamingConvention();
     }
 }
