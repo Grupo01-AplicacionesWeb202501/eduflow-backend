@@ -2,7 +2,7 @@
 
 public class Subject
 {
-    public string Value { get; }
+    public string Value { get; private set; } = null!;
 
     public Subject(string value)
     {

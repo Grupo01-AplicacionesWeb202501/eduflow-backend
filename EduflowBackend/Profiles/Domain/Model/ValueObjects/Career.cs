@@ -2,7 +2,7 @@
 
 public class Career
 {
-    public string Value { get; }
+    public string Value { get; private set; } = null!; 
 
     public Career(string value)
     {

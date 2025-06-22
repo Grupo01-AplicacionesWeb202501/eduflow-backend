@@ -2,7 +2,7 @@
 
 public class Cycle
 {
-    public int Value { get;  } 
+    public int Value { get; private set; } 
 
     public Cycle(int value)
     {
