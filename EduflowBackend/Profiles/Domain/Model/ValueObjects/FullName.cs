@@ -8,12 +8,10 @@ public class FullName
     public string Value
     {
         get => $"{FirstName} {LastName}".Trim();
-        set => throw new NotImplementedException();
     } 
 
     protected FullName()
     {
-        Value = string.Empty;
     } 
     public FullName(string firstName, string lastName)
     {
