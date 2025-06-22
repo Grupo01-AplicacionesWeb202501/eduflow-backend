@@ -1,32 +1,27 @@
 ﻿namespace EduflowBackend.Profiles.Interfaces.ACL;
 
 /// <summary>
-/// Facade for external modules to interact with the Profiles bounded context
+/// Facade interface for accessing profile creation and queries across bounded contexts.
 /// </summary>
 public interface IProfilesContextFacade
 {
     /// <summary>
-    /// Create a profile (student or teacher)
+    /// Creates a new student profile and returns its ID.
     /// </summary>
-    /// <param name="fullName">Full name of the person</param>
-    /// <param name="email">Email address</param>
-    /// <param name="userType">"student" or "teacher"</param>
-    /// <param name="career">Career (only for students)</param>
-    /// <param name="currentCycle">Cycle (only for students)</param>
-    /// <param name="subject">Subject taught (only for teachers)</param>
-    /// <returns>Id of created profile, or 0 on failure</returns>
-    Task<int> CreateProfileAsync(
-        string fullName,
-        string email,
-        string userType,
-        string? career = null,
-        int? currentCycle = null,
-        string? subject = null);
+    Task<int> CreateStudentProfile(string firstName, string lastName, string email, string career, int cycle);
 
     /// <summary>
-    /// Get profile ID from email
+    /// Creates a new teacher profile and returns its ID.
     /// </summary>
-    /// <param name="email">Email to search</param>
-    /// <returns>Profile ID or 0 if not found</returns>
-    Task<int> FetchProfileIdByEmailAsync(string email);
+    Task<int> CreateTeacherProfile(string firstName, string lastName, string email, string subject);
+
+    /// <summary>
+    /// Fetches the student profile ID associated with the given email.
+    /// </summary>
+    Task<int> FetchStudentProfileIdByEmail(string email);
+
+    /// <summary>
+    /// Fetches the teacher profile ID associated with the given email.
+    /// </summary>
+    Task<int> FetchTeacherProfileIdByEmail(string email);
 }

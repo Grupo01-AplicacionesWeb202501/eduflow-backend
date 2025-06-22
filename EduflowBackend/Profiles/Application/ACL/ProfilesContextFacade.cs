@@ -7,42 +7,40 @@ using EduflowBackend.Profiles.Interfaces.ACL;
 namespace EduflowBackend.Profiles.Application.ACL;
 
 /// <summary>
-/// ACL Facade for the Profiles Bounded Context
+/// Facade implementation for interacting with the Profiles bounded context
 /// </summary>
-/// <param name="profileCommandService">Command handler for profile creation</param>
-/// <param name="profileQueryService">Query handler for profile retrieval</param>
 public class ProfilesContextFacade(
-    IProfileCommandService profileCommandService,
-    IProfileQueryService profileQueryService
+    IStudentProfileCommandService studentCommandService,
+    ITeacherProfileCommandService teacherCommandService,
+    IStudentProfileQueryService studentQueryService,
+    ITeacherProfileQueryService teacherQueryService
 ) : IProfilesContextFacade
 {
-    /// <inheritdoc />
-    public async Task<int> CreateProfileAsync(
-        string fullName,
-        string email,
-        string userType,
-        string? career = null,
-        int? currentCycle = null,
-        string? subject = null)
+    public async Task<int> CreateStudentProfile(string firstName, string lastName, string email, string career, int cycle)
     {
-        var command = new CreateProfilesCommand(
-            fullName,
-            email,
-            userType,
-            career,
-            currentCycle,
-            subject
-        );
-
-        var profile = await profileCommandService.Handle(command);
+        var command = new CreateStudentProfileCommand(firstName, lastName, email, career, cycle);
+        var profile = await studentCommandService.Handle(command);
         return profile?.Id ?? 0;
     }
 
-    /// <inheritdoc />
-    public async Task<int> FetchProfileIdByEmailAsync(string email)
+    public async Task<int> CreateTeacherProfile(string firstName, string lastName, string email, string subject)
     {
-        var query = new GetProfileByEmailQuery(new Email(email));
-        var profile = await profileQueryService.Handle(query);
+        var command = new CreateTeacherProfileCommand(firstName, lastName, email, subject);
+        var profile = await teacherCommandService.Handle(command);
+        return profile?.Id ?? 0;
+    }
+
+    public async Task<int> FetchStudentProfileIdByEmail(string email)
+    {
+        var query = new GetStudentProfileByEmailQuery(new Email(email));
+        var profile = await studentQueryService.Handle(query);
+        return profile?.Id ?? 0;
+    }
+
+    public async Task<int> FetchTeacherProfileIdByEmail(string email)
+    {
+        var query = new GetTeacherProfileByEmailQuery(new Email(email));
+        var profile = await teacherQueryService.Handle(query);
         return profile?.Id ?? 0;
     }
 }
