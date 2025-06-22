@@ -28,4 +28,6 @@ public partial class ProfileStudent
     public string GetFullName() => FullName.Value;
 
     public string GetEmail() => Email.Value;
+    public string GetCareer() => Career.Value;
+    public int GetCycle() => Cycle.Value;
 }
