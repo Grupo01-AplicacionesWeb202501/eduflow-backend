@@ -5,11 +5,8 @@ public class FullName
     public string FirstName { get; private set; } = null!;
     public string LastName { get; private set;  } = null!;
 
-    public string Value
-    {
-        get => $"{FirstName} {LastName}".Trim();
-    } 
-
+    public string Value => $"{FirstName} {LastName}".Trim();
+    
     protected FullName()
     {
     } 
