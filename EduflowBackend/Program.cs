@@ -1,25 +1,23 @@
+using EduflowBackend.Profiles.Application.Internal.CommandServices;
+using EduflowBackend.Profiles.Application.Internal.QueryServices;
+using EduflowBackend.Profiles.Domain.Repositories;
+using EduflowBackend.Profiles.Domain.Services;
+using EduflowBackend.Profiles.Infrastructure.Persistence.EFC.Repositories;
 using EduflowBackend.Shared.Domain.Repositories;
 using EduflowBackend.Shared.Infrastructure.Persistence.EFC.Configuration;
 using EduflowBackend.Shared.Infrastructure.Persistence.EFC.Repositories;
 using EduflowBackend.Shared.Interfaces.ASP.Configuration;
-
-using EduflowBackend.Profiles.Domain.Repositories;
-using EduflowBackend.Profiles.Domain.Services;
-using EduflowBackend.Profiles.Application.Internal.CommandServices;
-using EduflowBackend.Profiles.Application.Internal.QueryServices;
-using EduflowBackend.Profiles.Infrastructure.Persistence.EFC.Repositories;
-
 using Microsoft.EntityFrameworkCore;
-
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add controllers and kebab-case route naming
+// Controllers + Kebab-case
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
-builder.Services.AddControllers(options => options.Conventions.Add(new KebabCaseRouteNamingConvention()));
+builder.Services.AddControllers(options =>
+    options.Conventions.Add(new KebabCaseRouteNamingConvention()));
 
-// Configure Swagger
+// Swagger configuration
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -27,7 +25,7 @@ builder.Services.AddSwaggerGen(options =>
     {
         Title = "Eduflow API - Profiles",
         Version = "v1",
-        Description = "REST API for managing user profiles in Eduflow."
+        Description = "REST API for managing student and teacher profiles in Eduflow."
     });
     options.EnableAnnotations();
 });
@@ -41,7 +39,7 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader());
 });
 
-// Configure MySQL connection
+// Database config
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 if (string.IsNullOrEmpty(connectionString))
     throw new InvalidOperationException("Missing connection string: DefaultConnection");
@@ -61,21 +59,25 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     }
 });
 
-// Register shared services
+// Shared services
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-// Register Profiles context services
-builder.Services.AddScoped<IProfileRepository, ProfileRepository>();
-builder.Services.AddScoped<IProfileCommandService, ProfileCommandService>();
-builder.Services.AddScoped<IProfileQueryService, ProfileQueryService>();
+// ⬇️ Student Profile Bounded Context
+builder.Services.AddScoped<IStudentProfileRepository, StudentProfileRepository>();
+builder.Services.AddScoped<IStudentProfileCommandService, StudentProfileCommandService>();
+builder.Services.AddScoped<IStudentProfileQueryService, StudentProfileQueryService>();
+
+// ⬇️ Teacher Profile Bounded Context
+builder.Services.AddScoped<ITeacherProfileRepository, TeacherProfileRepository>();
+builder.Services.AddScoped<ITeacherProfileCommandService, TeacherProfileCommandService>();
+builder.Services.AddScoped<ITeacherProfileQueryService, TeacherProfileQueryService>();
 
 var app = builder.Build();
 
-// Ensure DB is created
+// Ensure database is created
 using (var scope = app.Services.CreateScope())
 {
-    var services = scope.ServiceProvider;
-    var dbContext = services.GetRequiredService<AppDbContext>();
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     dbContext.Database.EnsureCreated();
 }
 
@@ -90,7 +92,6 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-//app.UseHttpsRedirection();
 app.UseCors("AllowAll");
 app.UseAuthorization();
 app.MapControllers();
