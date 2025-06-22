@@ -6,8 +6,12 @@ public class Email
 {
     private static readonly Regex EmailRegex = new(@"^[^@\s]+@[^@\s]+\.[^@\s]+$", RegexOptions.Compiled);
 
-    public string Value { get; private set; } = null!;
-    protected Email() { } // For EF
+    public string Value { get; private set; }
+
+    protected Email()
+    {
+        Value = string.Empty;
+    } // For EF
     public Email(string value)
     {
         if (string.IsNullOrWhiteSpace(value)) throw new ArgumentException("Email is required.");

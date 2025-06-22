@@ -5,10 +5,15 @@ public class FullName
     public string FirstName { get; private set; } = null!;
     public string LastName { get; private set;  } = null!;
 
-    public string Value => $"{FirstName} {LastName}".Trim();
+    public string Value
+    {
+        get => $"{FirstName} {LastName}".Trim();
+        set => throw new NotImplementedException();
+    } 
 
     protected FullName()
     {
+        Value = string.Empty;
     } 
     public FullName(string firstName, string lastName)
     {

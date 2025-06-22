@@ -10,5 +10,8 @@ public class Cycle
         Value = value;
     }
 
-    protected Cycle() { } // For EF
+    protected Cycle()
+    {
+        Value = 1; // Default value for EF
+    } // For EF
 }

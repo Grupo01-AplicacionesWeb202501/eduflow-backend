@@ -2,7 +2,7 @@
 
 public class Career
 {
-    public string Value { get; private set; } = null!; 
+    public string Value { get; private set; }  
 
     public Career(string value)
     {
@@ -10,5 +10,8 @@ public class Career
         Value = value.Trim();
     }
 
-    protected Career() { } // For EF
+    protected Career()
+    {
+        Value = string.Empty;
+    } // For EF
 }

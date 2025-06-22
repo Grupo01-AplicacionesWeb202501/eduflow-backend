@@ -2,7 +2,7 @@
 
 public class Subject
 {
-    public string Value { get; private set; } = null!;
+    public string Value { get; private set; } 
 
     public Subject(string value)
     {
@@ -10,5 +10,8 @@ public class Subject
         Value = value.Trim();
     }
 
-    protected Subject() { } // For EF
+    protected Subject()
+    {
+        Value = string.Empty;
+    } // For EF
 }

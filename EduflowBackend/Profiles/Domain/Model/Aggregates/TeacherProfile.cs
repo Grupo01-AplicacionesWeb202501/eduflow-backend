@@ -7,11 +7,17 @@ public partial class TeacherProfile
 {
     public int Id { get; private set; }
 
-    public FullName FullName { get; private set; } = null!;
-    public Email Email { get; private set; } = null!;
-    public Subject Subject { get; private set; } = null!;
+    public FullName FullName { get; private set; }
+    public Email Email { get; private set; }
+    public Subject Subject { get; private set; }
 
-    protected TeacherProfile() { }
+    // Constructor requerido por EF
+   /* protected TeacherProfile()
+    {
+        FullName = new FullName();
+        Email = new Email();
+        Subject = new Subject();
+    }*/
 
     public TeacherProfile(CreateTeacherProfileCommand command)
     {
