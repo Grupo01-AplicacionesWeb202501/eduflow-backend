@@ -2,4 +2,4 @@
 
 namespace EduflowBackend.Profiles.Domain.Model.Queries;
 
-public record GetProfileByEmailQuery(Email Email);
+public record GetTeacherProfileByEmailQuery(Email Email);

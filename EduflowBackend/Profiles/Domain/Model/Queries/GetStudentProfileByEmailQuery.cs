@@ -2,4 +2,4 @@
 
 namespace EduflowBackend.Profiles.Domain.Model.Queries;
 
-public record ListProfilesByUserTypeQuery(UserType UserType);
+public record GetStudentProfileByEmailQuery(Email Email);

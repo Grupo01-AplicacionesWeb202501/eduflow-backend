@@ -2,15 +2,24 @@
 
 public class FullName
 {
-    public string Value { get; }
+    public string FirstName { get; private set; } = null!;
+    public string LastName { get; private set;  } = null!;
 
-    public FullName(string value)
+    public string Value => $"{FirstName} {LastName}".Trim();
+
+    protected FullName()
     {
-        if (string.IsNullOrWhiteSpace(value))
-            throw new ArgumentException("Full name cannot be empty.");
+    } 
+    public FullName(string firstName, string lastName)
+    {
+        if (string.IsNullOrWhiteSpace(firstName))
+            throw new ArgumentException("First name is required");
 
-        Value = value.Trim();
+        if (string.IsNullOrWhiteSpace(lastName))
+            throw new ArgumentException("Last name is required");
+
+        FirstName = firstName.Trim();
+        LastName = lastName.Trim();
     }
-
-    public override string ToString() => Value;
+    
 }

@@ -1,27 +1,20 @@
-﻿namespace EduflowBackend.Profiles.Domain.Model.ValueObjects;
+﻿using System.Text.RegularExpressions;
+
+namespace EduflowBackend.Profiles.Domain.Model.ValueObjects;
 
 public class Email
 {
-    public string Address { get; }
+    private static readonly Regex EmailRegex = new(@"^[^@\s]+@[^@\s]+\.[^@\s]+$", RegexOptions.Compiled);
 
-    public Email(string address)
+    public string Value { get; private set; } = null!;
+    protected Email() { } // For EF
+    public Email(string value)
     {
-        if (string.IsNullOrWhiteSpace(address))
-            throw new ArgumentException("Email cannot be empty.");
+        if (string.IsNullOrWhiteSpace(value)) throw new ArgumentException("Email is required.");
+        if (!EmailRegex.IsMatch(value)) throw new ArgumentException("Invalid email format.");
 
-        if (!IsValid(address))
-            throw new ArgumentException("Invalid email format.");
-
-        Address = address.Trim().ToLower();
+        Value = value.Trim().ToLower();
     }
 
-    private static bool IsValid(string email)
-    {
-        return System.Text.RegularExpressions.Regex.IsMatch(
-            email,
-            @"^[^@\s]+@[^@\s]+\.[^@\s]+$"
-        );
-    }
-
-    public override string ToString() => Address;
+    
 }

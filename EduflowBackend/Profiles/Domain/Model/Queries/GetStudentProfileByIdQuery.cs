@@ -1,3 +1,3 @@
 ﻿namespace EduflowBackend.Profiles.Domain.Model.Queries;
 
-public record GetProfileByIdQuery(int Id);
+public record GetStudentProfileByIdQuery(int ProfileId);
