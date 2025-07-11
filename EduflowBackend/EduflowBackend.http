@@ -1,6 +1,0 @@
-@EduflowBackend_HostAddress = http://localhost:5080
-
-GET {{EduflowBackend_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

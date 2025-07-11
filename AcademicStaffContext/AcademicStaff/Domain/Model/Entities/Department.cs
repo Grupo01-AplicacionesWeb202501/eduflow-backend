@@ -14,7 +14,7 @@
 
     // Constructor de dominio
     public Department(string name, string description, string email, string phoneNumber)
-    {
+    {  
         Validate(name, description, email, phoneNumber);
 
         NameDepartment = name;

@@ -27,6 +27,17 @@ builder.Services.AddScoped<TeacherQueryService>();
 builder.Services.AddScoped<DepartmentCommandService>();
 builder.Services.AddScoped<DepartmentQueryService>();
 
+// Configuración de CORS
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 // Controladores
 builder.Services.AddControllers();
 
@@ -59,6 +70,7 @@ if (app.Environment.IsDevelopment())
 
 // Seguridad básica
 app.UseHttpsRedirection();
+app.UseCors();
 app.UseAuthorization();
 
 // Rutas de controladores

@@ -10,7 +10,10 @@
         public string AcademicDegree { get; }
         public int YearsOfExperience { get; }
 
-        public CreateTeacherCommand(string name, string lastName, string email, string phoneNumber, string speciality, string academicDegree, int yearsOfExperience)
+        public Guid DepartmentId { get; } // Assuming DepartmentId is required for teacher creation
+        public CreateTeacherCommand(string name, string lastName, string email, 
+            string phoneNumber, string speciality, string academicDegree, 
+            int yearsOfExperience, Guid departmentId)
         {
             Name = name;
             LastName = lastName;
@@ -19,6 +22,7 @@
             Speciality = speciality;
             AcademicDegree = academicDegree;
             YearsOfExperience = yearsOfExperience;
+            DepartmentId = departmentId;
         }
     }
 }

@@ -16,7 +16,7 @@ public class Teacher
     // Constructor requerido por EF Core
     public Teacher() { }
 
-    public Teacher(string firstName, string lastName, string email, string phoneNumber, string speciality, string academicDegree, int yearsOfExperience)
+    public Teacher(string firstName, string lastName, string email, string phoneNumber, string speciality, string academicDegree, int yearsOfExperience, Guid departmentId)
     {
         FirstName = firstName;
         LastName = lastName;

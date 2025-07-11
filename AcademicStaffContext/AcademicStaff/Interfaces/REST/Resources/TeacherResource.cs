@@ -42,8 +42,15 @@ namespace AcademicStaff.Interfaces.REST.Resources
         [SwaggerOperation(Summary = "Crea un nuevo profesor")]
         public async Task<IActionResult> Create([FromBody] CreateTeacherCommand command)
         {
-            var id = await _commandService.CreateAsync(command);
-            return CreatedAtAction(nameof(GetById), new { id }, new { Id = id });
+            try
+            {
+                var id = await _commandService.CreateAsync(command);
+                return CreatedAtAction(nameof(GetById), new { id }, new { Id = id });
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
         }
 
         [HttpPut("{id}")]

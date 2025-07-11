@@ -3,6 +3,78 @@
   "WorkspaceRootPath": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\domain\\model\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\domain\\model\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\domain\\model\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\domain\\model\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\application\\internal\\commandservices\\departmentcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\application\\internal\\commandservices\\departmentcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\interfaces\\rest\\resources\\departmentresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\interfaces\\rest\\resources\\departmentresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\application\\internal\\commandservices\\teachercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\application\\internal\\commandservices\\teachercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\domain\\model\\aggregates\\teacheraggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\domain\\model\\aggregates\\teacheraggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\interfaces\\rest\\resources\\teacherresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\interfaces\\rest\\resources\\teacherresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\infrastructure\\persistence\\efc\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\infrastructure\\persistence\\efc\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\application\\dto\\teacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\application\\dto\\teacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\domain\\model\\valueobjects\\academicdegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\domain\\model\\valueobjects\\academicdegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\application\\dto\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\application\\dto\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaffcontext.http||{3B902123-F8A7-4915-9F01-361F908088D0}|",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaffcontext.http||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaffcontext.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaffcontext.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\domain\\model\\commands\\createteachercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\domain\\model\\commands\\createteachercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaff\\domain\\repositories\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\domain\\repositories\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +83,8 @@
       "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaff\\domain\\model\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\academicstaffcontext.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:academicstaffcontext.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|c:\\kevin\\web-applicattions\\academicstaffcontext\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{00B08CD1-11FD-45B5-96B9-D5C37EE65BE3}|AcademicStaffContext.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,57 +99,199 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IDepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Repositories\\IDepartmentRepository.cs",
-              "RelativeDocumentMoniker": "AcademicStaff\\Domain\\Repositories\\IDepartmentRepository.cs",
-              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Repositories\\IDepartmentRepository.cs",
-              "RelativeToolTip": "AcademicStaff\\Domain\\Repositories\\IDepartmentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Domain\\Model\\Entities\\Department.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\Entities\\Department.cs",
+              "RelativeToolTip": "AcademicStaff\\Domain\\Model\\Entities\\Department.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T17:52:29.925Z",
+              "WhenOpened": "2025-07-09T21:25:19.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Teacher.cs",
-              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\Entities\\Teacher.cs",
-              "RelativeDocumentMoniker": "AcademicStaff\\Domain\\Model\\Entities\\Teacher.cs",
-              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\Entities\\Teacher.cs",
-              "RelativeToolTip": "AcademicStaff\\Domain\\Model\\Entities\\Teacher.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\ValueObjects\\Email.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Domain\\Model\\ValueObjects\\Email.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\ValueObjects\\Email.cs",
+              "RelativeToolTip": "AcademicStaff\\Domain\\Model\\ValueObjects\\Email.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T17:52:14.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T21:25:10.531Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DepartmentCommandService.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Application\\Internal\\CommandServices\\DepartmentCommandService.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Application\\Internal\\CommandServices\\DepartmentCommandService.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Application\\Internal\\CommandServices\\DepartmentCommandService.cs",
+              "RelativeToolTip": "AcademicStaff\\Application\\Internal\\CommandServices\\DepartmentCommandService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:46:34.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentResource.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Interfaces\\REST\\Resources\\DepartmentResource.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Interfaces\\REST\\Resources\\DepartmentResource.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Interfaces\\REST\\Resources\\DepartmentResource.cs",
+              "RelativeToolTip": "AcademicStaff\\Interfaces\\REST\\Resources\\DepartmentResource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:45:40.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeacherCommandService.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Application\\Internal\\CommandServices\\TeacherCommandService.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Application\\Internal\\CommandServices\\TeacherCommandService.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Application\\Internal\\CommandServices\\TeacherCommandService.cs",
+              "RelativeToolTip": "AcademicStaff\\Application\\Internal\\CommandServices\\TeacherCommandService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T18:06:41.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeacherAggregate.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\Aggregates\\TeacherAggregate.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Domain\\Model\\Aggregates\\TeacherAggregate.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\Aggregates\\TeacherAggregate.cs",
+              "RelativeToolTip": "AcademicStaff\\Domain\\Model\\Aggregates\\TeacherAggregate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:45:25.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Infrastructure\\Persistence\\EFC\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Infrastructure\\Persistence\\EFC\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Infrastructure\\Persistence\\EFC\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "AcademicStaff\\Infrastructure\\Persistence\\EFC\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:45:36.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeacherDto.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Application\\DTO\\TeacherDto.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Application\\DTO\\TeacherDto.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Application\\DTO\\TeacherDto.cs",
+              "RelativeToolTip": "AcademicStaff\\Application\\DTO\\TeacherDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T05:46:05.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TeacherResource.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Interfaces\\REST\\Resources\\TeacherResource.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Interfaces\\REST\\Resources\\TeacherResource.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Interfaces\\REST\\Resources\\TeacherResource.cs",
+              "RelativeToolTip": "AcademicStaff\\Interfaces\\REST\\Resources\\TeacherResource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T18:11:50.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AcademicDegree.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\ValueObjects\\AcademicDegree.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Domain\\Model\\ValueObjects\\AcademicDegree.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\ValueObjects\\AcademicDegree.cs",
+              "RelativeToolTip": "AcademicStaff\\Domain\\Model\\ValueObjects\\AcademicDegree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T05:47:01.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-09T03:53:13.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T05:28:32.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T05:28:32.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvykAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-15T05:31:36.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
+              "Title": "AcademicStaffContext.http",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaffContext.http",
+              "RelativeDocumentMoniker": "AcademicStaffContext.http",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaffContext.http",
+              "RelativeToolTip": "AcademicStaffContext.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-09T03:58:58.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DepartmentDto.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Application\\DTO\\DepartmentDto.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Application\\DTO\\DepartmentDto.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Application\\DTO\\DepartmentDto.cs",
+              "RelativeToolTip": "AcademicStaff\\Application\\DTO\\DepartmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T18:05:22.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AcademicStaffContext.http",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaffContext.http",
+              "RelativeDocumentMoniker": "AcademicStaffContext.http",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaffContext.http",
+              "RelativeToolTip": "AcademicStaffContext.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-09T04:03:49.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -101,7 +303,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
+              "Title": "CreateTeacherCommand.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\Commands\\CreateTeacherCommand.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Domain\\Model\\Commands\\CreateTeacherCommand.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\Commands\\CreateTeacherCommand.cs",
+              "RelativeToolTip": "AcademicStaff\\Domain\\Model\\Commands\\CreateTeacherCommand.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T18:15:01.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Repositories\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Domain\\Repositories\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Repositories\\IDepartmentRepository.cs",
+              "RelativeToolTip": "AcademicStaff\\Domain\\Repositories\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T17:52:29.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\Entities\\Teacher.cs",
+              "RelativeDocumentMoniker": "AcademicStaff\\Domain\\Model\\Entities\\Teacher.cs",
+              "ToolTip": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaff\\Domain\\Model\\Entities\\Teacher.cs",
+              "RelativeToolTip": "AcademicStaff\\Domain\\Model\\Entities\\Teacher.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T17:52:14.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "AcademicStaffContext.csproj",
               "DocumentMoniker": "C:\\Kevin\\Web-Applicattions\\AcademicStaffContext\\AcademicStaffContext.csproj",
               "RelativeDocumentMoniker": "AcademicStaffContext.csproj",
@@ -109,8 +347,7 @@
               "RelativeToolTip": "AcademicStaffContext.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-15T05:28:29.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T05:28:29.966Z"
             }
           ]
         }

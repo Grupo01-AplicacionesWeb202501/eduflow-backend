@@ -1,24 +1,32 @@
 ﻿using AcademicStaff.Domain.Model.Commands;
+using AcademicStaffContext.AcademicStaff.Application.Internal.CommandServices;
 using AcademicStaffContext.AcademicStaff.Domain.Model.Entities;
 using AcademicStaffContext.AcademicStaff.Domain.Repositories;
+using AcademicStaffContext.AcademicStaff.Infrastructure.Persistence.EFC.Repositories;
 using AcademicStaffContext.Shared.Infraestructure.Persistence.EFC.Configuration;
-
 
 namespace AcademicStaff.Application.Internal.CommandServices
 {
     public class TeacherCommandService
     {
+        private readonly IDepartmentRepository _departmentRepository;
         private readonly ITeacherRepository _teacherRepository;
         private readonly AppDbContext _context;
 
-        public TeacherCommandService(ITeacherRepository teacherRepository, AppDbContext context)
+        public TeacherCommandService(ITeacherRepository teacherRepository, IDepartmentRepository departmentRepository ,AppDbContext context)
         {
             _teacherRepository = teacherRepository;
+            _departmentRepository = departmentRepository;
             _context = context;
         }
 
         public async Task<Guid> CreateAsync(CreateTeacherCommand command)
         {
+            // Validar que el DepartmentId existe
+            var department = await _departmentRepository.GetByIdAsync(command.DepartmentId);
+            if (department == null)
+                throw new ArgumentException("El DepartmentId proporcionado no existe.");
+
             var teacher = new Teacher(
                 command.Name,
                 command.LastName,
@@ -26,7 +34,8 @@ namespace AcademicStaff.Application.Internal.CommandServices
                 command.PhoneNumber,
                 command.Speciality,
                 command.AcademicDegree,
-                command.YearsOfExperience
+                command.YearsOfExperience,
+                command.DepartmentId
             );
 
             await _teacherRepository.AddAsync(teacher);

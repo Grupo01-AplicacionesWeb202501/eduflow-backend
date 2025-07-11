@@ -343,6 +343,10 @@
           "yearsOfExperience": {
             "type": "integer",
             "format": "int32"
+          },
+          "departmentId": {
+            "type": "string",
+            "format": "uuid"
           }
         },
         "additionalProperties": false
